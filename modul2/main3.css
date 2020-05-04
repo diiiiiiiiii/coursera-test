@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-bottom: 15px;
+    color: #19334d;
+    text-align: center;
+    font-family: cursive;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.content-block {
+    width: 32%;
+    margin-right: 2%;
+    border: 1px solid black;
+    float: left;
+    border-radius: 10px;
+}
+.content-block:last-child {
+    margin-right: 0;
+}
+
+#p1 {
+    background-color: #A52A2A;
+}
+#p2 {
+    background-color: #DEB887;
+}
+#p3 {
+    background-color: #5F9E80;
+}
+
+.content-block__header {
+    width: auto;
+    margin: 0 0 0 50%;
+    line-height: 2;
+    background-color: lightyellow;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 0 10px 0 0;
+}
+
+.content-block__content {
+    padding: 15px;
+    text-align: justify;
+}
+
+@media (max-width: 1199px) {
+    #container {
+        max-width: 900px;
+    }
+
+    #p1, #p2 {
+        width: 49%;
+        margin: 0 0 20px 0;
+    }
+
+    #p1 {
+        margin-right: 2%;
+    }
+
+    #p3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    #container {
+        width: 100%;
+    }
+
+    #p1, #p2, #p3 {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}
+
+/*.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {*/
+/*float: left;*/
+/*border: 1px solid green;*/
+/*}*/
+/*.col-md-1 {*/
+/*width: 8.33%;*/
+/*}*/
+/*.col-md-2 {*/
+/*width: 16.66%;*/
+/*}*/
+/*.col-md-3 {*/
+/*width: 25%;*/
+/*}*/
+/*.col-md-4 {*/
+/*width: 33.33%;*/
+/*}*/
+/*.col-md-5 {*/
+/*width: 41.66%;*/
+/*}*/
+/*.col-md-6 {*/
+/*width: 50%;*/
+/*}*/
+/*.col-md-7 {*/
+/*width: 58.33%;*/
+/*}*/
+/*.col-md-8 {*/
+/*width: 66.66%;*/
+/*}*/
+/*.col-md-9 {*/
+/*width: 74.99%;*/
+/*}*/
+/*.col-md-10 {*/
+/*width: 83.33%;*/
+/*}*/
+/*.col-md-11 {*/
+/*width: 91.66%;*/
+/*}*/
+/*.col-md-12 {*/
+/*width: 100%;*/
+/*}*/
+/*#p1 {*/
+/*background-color: #A52A2A;}*/
+
+/*#p2 {*/
+/*background-color: #DEB887;*/
+/*position: relative;*/
+/*left: 435px;*/
+/*top: -215px;*/
+/*}*/
+
+/*#p3 {*/
+/*background-color: #5F9E80;*/
+/*position: relative;*/
+/*top: -15px;*/
+/*left:435px;*/
+/*}*/
